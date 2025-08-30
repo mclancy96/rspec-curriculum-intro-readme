@@ -54,7 +54,7 @@ Testing is a skill that will serve you for your entire career. It’s your secre
 
 ### Unit 1: Foundations of Testing & RSpec Syntax
 
-- [Lesson 1: Introduction to Testing and RSpec](https://github.com/mclancy96/rspec-curriculum-intro-readme) — What testing is, why we test, types of tests (unit, integration, system), and why RSpec is standard in Ruby/Rails.
+- [Lesson 1: Introduction to Testing and RSpec](https://github.com/mclancy96/rspec-intro-to-rspec-and-testing-readme) — What testing is, why we test, types of tests (unit, integration, system), and why RSpec is standard in Ruby/Rails.
 - [Lesson 2: Installing and Initializing RSpec](https://github.com/mclancy96/rspec-installing-and-initializing-rspec-readme) — Installing RSpec gem, running `rspec --init`, exploring `spec/` folder structure, running the first test suite.
 - [Lab 1: Hello RSpec](https://github.com/mclancy96/rspec-hello-rspec-lab) — Write your first RSpec specs for a simple Calculator class. Practice using `describe`, `it`, and `expect` to test arithmetic methods and edge cases.
 
