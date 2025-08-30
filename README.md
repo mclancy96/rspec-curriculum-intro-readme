@@ -50,32 +50,34 @@ Testing is a skill that will serve you for your entire career. It’s your secre
 
 ---
 
-## Lesson Prompts
-
-For each lesson, use the **Lesson Repo Prompt** and plug in the title + description:
+## Complete RSpec Curriculum
 
 ### Unit 1
 
 - Lesson 1: Introduction to Testing and RSpec — What testing is, why we test, types of tests (unit, integration, system), and why RSpec is standard in Ruby/Rails.
 - Lesson 2: Installing and Initializing RSpec — Installing RSpec gem, running `rspec --init`, exploring `spec/` folder structure, running the first test suite.
+- Lab 1: Hello RSpec — Students write their first `describe`/`it`/`expect` specs against a simple Ruby class (e.g., Calculator).
 
 ### Unit 2
 
 - Lesson 3: Test-Driven Development (TDD) — Red/Green/Refactor cycle, benefits of TDD, applying TDD to Ruby classes.
 - Lesson 4: Examples and Expectations — `describe`, `context`, `it`, `expect`, `eq`, `eql`, `equal`.
 - Lesson 5: Reading Failures & Debugging Specs — How to interpret RSpec’s error output to guide development.
+- Lab 2: TDD a Small Ruby Class — Students TDD a Ruby class (e.g., Playlist, BankAccount, TodoList). Specs guide the implementation.
 
 ### Unit 3
 
 - Lesson 6: Before/After Hooks and Instance Variables — Reducing duplication with `before`/`after` and instance variables.
 - Lesson 7: let and let! — Lazy vs eager evaluation, why `let` is often better than instance variables.
 - Lesson 8: Custom Error Messages & Helper Methods — Improving spec readability and clarity with helper methods and custom messages.
+- Lab 3: Refactoring Specs for Readability — Students refactor messy specs into DRY, readable specs using hooks, `let`, and helpers.
 
 ### Unit 4
 
 - Lesson 9: The context Method & Nested Describes — Organizing test cases with `context` and nested `describe`s.
 - Lesson 10: Subjects (implicit & explicit) — `subject`, implicit vs explicit usage, one-liner syntax, `described_class`.
 - Lesson 11: Shared Examples & Shared Context — Reusing test logic with `include_examples` and `include_context`.
+- Lab 4: Organizing a Larger Spec Suite — Students write/refactor specs for a complex Ruby class (e.g., Deck of Cards, ShoppingCart). Must use contexts, subjects, shared examples.
 
 ### Unit 5
 
@@ -83,12 +85,14 @@ For each lesson, use the **Lesson Repo Prompt** and plug in the title + descript
 - Lesson 13: Predicate Matchers & Truthiness — `be_truthy`, `be_falsey`, `be_nil`, `be_empty`, etc.
 - Lesson 14: Collection & Attribute Matchers — `include`, `contain_exactly`, `have_attributes`, `start_with`, `end_with`.
 - Lesson 15: Error & Change Matchers — `raise_error`, `change`, `respond_to`, `satisfy`, compound expectations.
+- Lab 5: Matcher Playground — Students write specs using each matcher type against provided Ruby classes.
 
 ### Unit 6
 
 - Lesson 16: Introduction to Test Doubles — What doubles are, why they’re useful, `double` method.
 - Lesson 17: Allow, Receive, and Argument Matching — `allow(...).to receive`, return values, argument matchers.
 - Lesson 18: Instance Doubles, Class Doubles, and Spies — Strict doubles, verifying interfaces, and spies for verifying interactions.
+- Lab 6: Doubles & Mocks — Students test-drive a Ruby service object (e.g., Notifier or PaymentProcessor) using doubles and spies.
 
 ### Unit 7 (Rails)
 
@@ -97,24 +101,11 @@ For each lesson, use the **Lesson Repo Prompt** and plug in the title + descript
 - Lesson 21: Request Specs — Testing controllers and APIs with request specs.
 - Lesson 22: System/Feature Specs — Testing user flows with Capybara.
 - Lesson 23: Fixtures vs Factories — Comparing fixtures and factories, best practices with FactoryBot.
+- Lab 7: Testing a Rails Mini-App — A Rails app (Blog with Users & Posts). Students write model, request, and feature specs.
 
 ### Unit 8
 
 - Lesson 24: Writing Maintainable Test Suites — Best practices for organizing specs, avoiding over-mocking, focusing on behavior not implementation.
-
----
-
-## Labs
-
-For each lab, use the **Lab Repo Prompt** and plug in the title + description:
-
-- Lab 1: Hello RSpec — Students write their first `describe`/`it`/`expect` specs against a simple Ruby class (e.g., Calculator).
-- Lab 2: TDD a Small Ruby Class — Students TDD a Ruby class (e.g., Playlist, BankAccount, TodoList). Specs guide the implementation.
-- Lab 3: Refactoring Specs for Readability — Students refactor messy specs into DRY, readable specs using hooks, `let`, and helpers.
-- Lab 4: Organizing a Larger Spec Suite — Students write/refactor specs for a complex Ruby class (e.g., Deck of Cards, ShoppingCart). Must use contexts, subjects, shared examples.
-- Lab 5: Matcher Playground — Students write specs using each matcher type against provided Ruby classes.
-- Lab 6: Doubles & Mocks — Students test-drive a Ruby service object (e.g., Notifier or PaymentProcessor) using doubles and spies.
-- Lab 7: Testing a Rails Mini-App — A Rails app (Blog with Users & Posts). Students write model, request, and feature specs.
 - Lab 8: Capstone – Add Specs to an Existing Project — Students return to a project they built earlier and add a full spec suite: unit, request, and system tests.
 
 ---
