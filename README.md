@@ -63,7 +63,7 @@ Testing is a skill that will serve you for your entire career. It’s your secre
 - [Lesson 3: Test-Driven Development (TDD)](https://github.com/mclancy96/rspec-test-driven-development-tdd-readme) — Red/Green/Refactor cycle, benefits of TDD, applying TDD to Ruby classes.
 - [Lesson 4: Examples and Expectations](https://github.com/mclancy96/rspec-examples-and-expectations-readme) — `describe`, `context`, `it`, `expect`, `eq`, `eql`, `equal`.
 - [Lesson 5: Reading Failures & Debugging Specs](https://github.com/mclancy96/rspec-reading-failures-and-debugging-specs-readme) — How to interpret RSpec’s error output to guide development.
-- [Lab 2: TDD a Small Ruby Class](https://github.com/mclancy96/rspec-tdd-a-small-ruby-class-lab) — Practice TDD by writing specs for a provided BankAccount or TodoList class, then implement the class to make your tests pass.
+- [Lab 2: TDD a Small Ruby Class](https://github.com/mclancy96/rspec-tdd-a-small-ruby-class-lab) — Practice TDD by writing specs for a provided BankAccount class, then implement the class to make your tests pass.
 
 ### Unit 3: DRY Specs & Readability Techniques
 
