@@ -52,61 +52,61 @@ Testing is a skill that will serve you for your entire career. It’s your secre
 
 ## Complete RSpec Curriculum
 
-### Unit 1
+### Unit 1: Foundations of Testing & RSpec Syntax
 
-- Lesson 1: Introduction to Testing and RSpec — What testing is, why we test, types of tests (unit, integration, system), and why RSpec is standard in Ruby/Rails.
-- Lesson 2: Installing and Initializing RSpec — Installing RSpec gem, running `rspec --init`, exploring `spec/` folder structure, running the first test suite.
-- Lab 1: Hello RSpec — Students write their first `describe`/`it`/`expect` specs against a simple Ruby class (e.g., Calculator).
+- [Lesson 1: Introduction to Testing and RSpec](https://github.com/mclancy96/rspec-curriculum-intro-readme) — What testing is, why we test, types of tests (unit, integration, system), and why RSpec is standard in Ruby/Rails.
+- [Lesson 2: Installing and Initializing RSpec](https://github.com/mclancy96/rspec-installing-and-initializing-rspec-readme) — Installing RSpec gem, running `rspec --init`, exploring `spec/` folder structure, running the first test suite.
+- [Lab 1: Hello RSpec](https://github.com/mclancy96/rspec-hello-rspec-lab) — Write your first RSpec specs for a simple Calculator class. Practice using `describe`, `it`, and `expect` to test arithmetic methods and edge cases.
 
-### Unit 2
+### Unit 2: Test-Driven Development & Core RSpec Practices
 
-- Lesson 3: Test-Driven Development (TDD) — Red/Green/Refactor cycle, benefits of TDD, applying TDD to Ruby classes.
-- Lesson 4: Examples and Expectations — `describe`, `context`, `it`, `expect`, `eq`, `eql`, `equal`.
-- Lesson 5: Reading Failures & Debugging Specs — How to interpret RSpec’s error output to guide development.
-- Lab 2: TDD a Small Ruby Class — Students TDD a Ruby class (e.g., Playlist, BankAccount, TodoList). Specs guide the implementation.
+- [Lesson 3: Test-Driven Development (TDD)](https://github.com/mclancy96/rspec-test-driven-development-tdd-readme) — Red/Green/Refactor cycle, benefits of TDD, applying TDD to Ruby classes.
+- [Lesson 4: Examples and Expectations](https://github.com/mclancy96/rspec-examples-and-expectations-readme) — `describe`, `context`, `it`, `expect`, `eq`, `eql`, `equal`.
+- [Lesson 5: Reading Failures & Debugging Specs](https://github.com/mclancy96/rspec-reading-failures-and-debugging-specs-readme) — How to interpret RSpec’s error output to guide development.
+- [Lab 2: TDD a Small Ruby Class](https://github.com/mclancy96/rspec-tdd-a-small-ruby-class-lab) — Practice TDD by writing specs for a provided BankAccount or TodoList class, then implement the class to make your tests pass.
 
-### Unit 3
+### Unit 3: DRY Specs & Readability Techniques
 
-- Lesson 6: Before/After Hooks and Instance Variables — Reducing duplication with `before`/`after` and instance variables.
-- Lesson 7: let and let! — Lazy vs eager evaluation, why `let` is often better than instance variables.
-- Lesson 8: Custom Error Messages & Helper Methods — Improving spec readability and clarity with helper methods and custom messages.
-- Lab 3: Refactoring Specs for Readability — Students refactor messy specs into DRY, readable specs using hooks, `let`, and helpers.
+- [Lesson 6: Before/After Hooks and Instance Variables](https://github.com/mclancy96/rspec-before-after-hooks-and-instance-variables-readme) — Reducing duplication with `before`/`after` and instance variables.
+- [Lesson 7: let and let!](https://github.com/mclancy96/rspec-let-and-let-bang-readme) — Lazy vs eager evaluation, why `let` is often better than instance variables.
+- [Lesson 8: Custom Error Messages & Helper Methods](https://github.com/mclancy96/rspec-custom-error-messages-and-helper-methods-readme) — Improving spec readability and clarity with helper methods and custom messages.
+- [Lab 3: Refactoring Specs for Readability](https://github.com/mclancy96/rspec-refactoring-specs-for-readability-lab) — Refactor messy, repetitive specs for the Animal class using RSpec best practices like `let`, `before`, and helper methods.
 
-### Unit 4
+### Unit 4: Organizing, Grouping, and Sharing Specs
 
-- Lesson 9: The context Method & Nested Describes — Organizing test cases with `context` and nested `describe`s.
-- Lesson 10: Subjects (implicit & explicit) — `subject`, implicit vs explicit usage, one-liner syntax, `described_class`.
-- Lesson 11: Shared Examples & Shared Context — Reusing test logic with `include_examples` and `include_context`.
-- Lab 4: Organizing a Larger Spec Suite — Students write/refactor specs for a complex Ruby class (e.g., Deck of Cards, ShoppingCart). Must use contexts, subjects, shared examples.
+- [Lesson 9: The context Method & Nested Describes](https://github.com/mclancy96/rspec-context-method-and-nested-describes-readme) — Organizing test cases with `context` and nested `describe`s.
+- [Lesson 10: Subjects (implicit & explicit)](https://github.com/mclancy96/rspec-subjects-implicit-and-explicit-readme) — `subject`, implicit vs explicit usage, one-liner syntax, `described_class`.
+- [Lesson 11: Shared Examples & Shared Context](https://github.com/mclancy96/rspec-shared-examples-and-shared-context-readme) — Reusing test logic with `include_examples` and `include_context`.
+- [Lab 4: Organizing a Larger Spec Suite](https://github.com/mclancy96/rspec-organizing-a-larger-spec-suite-lab) — Organize and DRY up a larger spec suite for Deck and Card classes using `context`, `describe`, `subject`, `let`, and shared examples.
 
-### Unit 5
+### Unit 5: Exploring RSpec Matchers
 
-- Lesson 12: Equality & Comparison Matchers — `eq`, `eql`, `equal`, and comparison matchers.
-- Lesson 13: Predicate Matchers & Truthiness — `be_truthy`, `be_falsey`, `be_nil`, `be_empty`, etc.
-- Lesson 14: Collection & Attribute Matchers — `include`, `contain_exactly`, `have_attributes`, `start_with`, `end_with`.
-- Lesson 15: Error & Change Matchers — `raise_error`, `change`, `respond_to`, `satisfy`, compound expectations.
-- Lab 5: Matcher Playground — Students write specs using each matcher type against provided Ruby classes.
+- [Lesson 12: Equality & Comparison Matchers](https://github.com/mclancy96/rspec-equality-and-comparison-matchers-readme) — `eq`, `eql`, `equal`, and comparison matchers.
+- [Lesson 13: Predicate Matchers & Truthiness](https://github.com/mclancy96/rspec-predicate-matchers-and-truthiness-readme) — `be_truthy`, `be_falsey`, `be_nil`, `be_empty`, etc.
+- [Lesson 14: Collection & Attribute Matchers](https://github.com/mclancy96/rspec-collection-and-attribute-matchers-readme) — `include`, `contain_exactly`, `have_attributes`, `start_with`, `end_with`.
+- [Lesson 15: Error & Change Matchers](https://github.com/mclancy96/rspec-error-and-change-matchers-readme) — `raise_error`, `change`, `respond_to`, `satisfy`, compound expectations.
+- [Lab 5: Matcher Playground](https://github.com/mclancy96/rspec-matcher-playground-lab) — Write specs for the ShoppingCart class using a variety of RSpec matcher types: equality, predicate, collection, error, and change.
 
-### Unit 6
+### Unit 6: Test Doubles, Mocks, and Spies
 
-- Lesson 16: Introduction to Test Doubles — What doubles are, why they’re useful, `double` method.
-- Lesson 17: Allow, Receive, and Argument Matching — `allow(...).to receive`, return values, argument matchers.
-- Lesson 18: Instance Doubles, Class Doubles, and Spies — Strict doubles, verifying interfaces, and spies for verifying interactions.
-- Lab 6: Doubles & Mocks — Students test-drive a Ruby service object (e.g., Notifier or PaymentProcessor) using doubles and spies.
+- [Lesson 16: Introduction to Test Doubles](https://github.com/mclancy96/rspec-introduction-to-test-doubles-readme) — What doubles are, why they’re useful, `double` method.
+- [Lesson 17: Allow, Receive, and Argument Matching](https://github.com/mclancy96/rspec-allow-receive-and-argument-matching-readme) — `allow(...).to receive`, return values, argument matchers.
+- [Lesson 18: Instance Doubles, Class Doubles, and Spies](https://github.com/mclancy96/rspec-instance-doubles-class-doubles-and-spies-readme) — Strict doubles, verifying interfaces, and spies for verifying interactions.
+- [Lab 6: Doubles & Mocks](https://github.com/mclancy96/rspec-doubles-and-mocks-lab) — Use doubles, mocks, and spies to isolate and test a PaymentProcessor service object, verifying both return values and interactions.
 
-### Unit 7 (Rails)
+### Unit 7: Rails Testing—Models, Requests, Features, and Factories
 
-- Lesson 19: RSpec in Rails — `rspec-rails` gem, folder structure, `rails generate rspec:install`.
-- Lesson 20: Model Specs with Validations & Associations — Testing ActiveRecord models, validations, associations, and using FactoryBot.
-- Lesson 21: Request Specs — Testing controllers and APIs with request specs.
-- Lesson 22: System/Feature Specs — Testing user flows with Capybara.
-- Lesson 23: Fixtures vs Factories — Comparing fixtures and factories, best practices with FactoryBot.
-- Lab 7: Testing a Rails Mini-App — A Rails app (Blog with Users & Posts). Students write model, request, and feature specs.
+- [Lesson 19: RSpec in Rails](https://github.com/mclancy96/rspec-in-rails-readme) — `rspec-rails` gem, folder structure, `rails generate rspec:install`.
+- [Lesson 20: Model Specs with Validations & Associations](https://github.com/mclancy96/rspec-model-specs-with-validations-and-associations-readme) — Testing ActiveRecord models, validations, associations, and using FactoryBot.
+- [Lesson 21: Request Specs](https://github.com/mclancy96/rspec-request-specs-readme) — Testing controllers and APIs with request specs.
+- [Lesson 22: System/Feature Specs](https://github.com/mclancy96/rspec-system-and-feature-specs-readme) — Testing user flows with Capybara.
+- [Lesson 23: Fixtures vs Factories](https://github.com/mclancy96/rspec-fixtures-vs-factories-readme) — Comparing fixtures and factories, best practices with FactoryBot.
+- [Lab 7: Testing a Rails Mini-App](https://github.com/mclancy96/rspec-testing-a-rails-mini-app-lab) — Write model, request, and feature specs for a real Rails app with Users and Posts, using FactoryBot and Capybara.
 
-### Unit 8
+### Unit 8: Maintainable Test Suites & Capstone
 
-- Lesson 24: Writing Maintainable Test Suites — Best practices for organizing specs, avoiding over-mocking, focusing on behavior not implementation.
-- Lab 8: Capstone – Add Specs to an Existing Project — Students return to a project they built earlier and add a full spec suite: unit, request, and system tests.
+- [Lesson 24: Writing Maintainable Test Suites](https://github.com/mclancy96/rspec-writing-maintainable-test-suites-readme) — Best practices for organizing specs, avoiding over-mocking, focusing on behavior not implementation.
+- [Lab 8: Capstone – Add Specs to an Existing Project](https://github.com/mclancy96/rspec-capstone-add-specs-to-existing-project-lab) — Return to a previous Ruby or Rails project and add a comprehensive RSpec test suite: model, request, and system specs.
 
 ---
 
