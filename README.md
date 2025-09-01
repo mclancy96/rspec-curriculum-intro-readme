@@ -21,7 +21,7 @@ RSpec makes testing in Ruby and Rails clear, expressive, and—dare we say—fun
 
 ## How This Curriculum Works
 
-- **Lessons**: Each lesson repo (ending in `-readme`) is a deep dive into a key concept. Lessons are written to be overly clear and verbose, with lots of examples, analogies, and practice prompts. You’ll learn not just the “how,” but the “why.”
+- **Lessons**: Each lesson repo (ending in `-readme`) is a deep dive into a key concept. Lessons are written to be overly clear and verbose, with lots of examples, analogies, and hands-on example code. Every lesson includes robust, runnable example specs and supporting code that demonstrate the concept in action. You'll have the opportunity to run these examples and try out your own changes before moving on to the labs, giving you a safe space to experiment and build confidence.
 - **Labs**: Each lab repo (ending in `-lab`) is a hands-on coding challenge. Labs are designed to help you practice what you’ve learned, step by step, with clear instructions and robust meta-specs to check your work. (No, the meta-specs won’t do your homework for you, but they’ll make sure you’re on the right track!)
 - **No Solutions Provided**: You’ll be writing your own specs and, in some cases, your own code. This is intentional! The best way to learn testing is by doing it yourself. (Don’t worry, you’ll have plenty of guidance.)
 
